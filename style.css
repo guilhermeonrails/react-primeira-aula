@@ -1,0 +1,24 @@
+body {
+    padding: 2%;
+}
+
+.bandas__cartao {
+    border: 2px solid black;
+    display: inline-block;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    margin: 0.5rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    overflow: hidden;
+    transition: transform 0.3;
+}
+
+.bandas__cartao:hover img {
+    transform: scale(1.05);
+}
+
+img {
+    width: 12rem;
+    height: 12rem;
+}
